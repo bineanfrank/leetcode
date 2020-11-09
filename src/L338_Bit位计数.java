@@ -1,5 +1,3 @@
-package dynamic_programming;
-
 /**
  * Created with IntelliJ IDEA.
  * User: harlan

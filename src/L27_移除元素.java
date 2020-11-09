@@ -1,5 +1,3 @@
-package binary_points;
-
 /**
  * Created by Harlan1994 on 2018/12/21.
  */
