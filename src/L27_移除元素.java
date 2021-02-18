@@ -7,7 +7,7 @@ public class L27_移除元素 {
         L27_移除元素 l27_移除元素 = new L27_移除元素();
 
         int[] ints = new int[]{1, 2, 2, 3, 4, 5, 6};
-        int result = l27_移除元素.removeElement(ints, 2);
+        int result = l27_移除元素.removeElement2(ints, 2);
         System.out.println(result);
     }
 
@@ -24,6 +24,19 @@ public class L27_移除元素 {
             } else {
                 i++;
             }
+        }
+        return j;
+    }
+
+    public int removeElement2(int[] nums, int val) {
+        if (nums.length <= 0) return 0;
+        int i = 0, j = 0;
+        while (i < nums.length) {
+            if (nums[i] != val) {
+                nums[j] = nums[i];
+                j++;
+            }
+            i++;
         }
         return j;
     }

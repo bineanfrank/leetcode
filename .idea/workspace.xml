@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/L2_两数相加.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/dynamic_programming/L338_Bit位计数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/L27_移除元素.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/L27_移除元素.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/L338_Bit位计数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/L338_Bit位计数.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,19 +41,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="width" value="2578" />
-    <option name="height" value="1410" />
+  <component name="ProjectId" id="1oEZsvnIOTwY0kMZPyzdXnXODUr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.L27_移除元素">
+  <component name="RunManager" selected="Application.L2_两数相加">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -149,6 +172,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="L2_两数相加" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="L2_两数相加" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L338_Bit位计数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="L338_Bit位计数" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="L5_最长回文子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dynamic_programming.L5_最长回文子串" />
       <module name="leetcode" />
@@ -220,19 +259,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="leetcode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
       <option name="vmParameters" />
@@ -298,13 +324,18 @@
     <list>
       <item itemvalue="Application.L5_最长回文子串" />
       <item itemvalue="Application.L27_移除元素" />
+      <item itemvalue="Application.L338_Bit位计数" />
+      <item itemvalue="Application.L2_两数相加" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.L2_两数相加" />
+        <item itemvalue="Application.L338_Bit位计数" />
         <item itemvalue="Application.L27_移除元素" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -321,8 +352,12 @@
       <workItem from="1550736583145" duration="605000" />
       <workItem from="1555161226411" duration="192000" />
       <workItem from="1555215142825" duration="26000" />
+      <workItem from="1612853923549" duration="5879000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -334,9 +369,80 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1238" height="293" key="GridCell.Tab.0.bottom" timestamp="1613612827982">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="293" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1613612827982" />
+    <state width="1238" height="293" key="GridCell.Tab.0.center" timestamp="1613612827980">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="293" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1613612827980" />
+    <state width="1238" height="293" key="GridCell.Tab.0.left" timestamp="1613612827968">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="293" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1613612827968" />
+    <state width="1238" height="293" key="GridCell.Tab.0.right" timestamp="1613612827981">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="293" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1613612827981" />
+    <state width="1238" height="293" key="GridCell.Tab.1.bottom" timestamp="1613612828334">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="293" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1613612828334" />
+    <state width="1238" height="293" key="GridCell.Tab.1.center" timestamp="1613612828328">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="293" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1613612828328" />
+    <state width="1238" height="293" key="GridCell.Tab.1.left" timestamp="1613612828327">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="293" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1613612828327" />
+    <state width="1238" height="293" key="GridCell.Tab.1.right" timestamp="1613612828331">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="293" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1613612828331" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/L27_移除元素.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/L27_移除元素.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/L2_两数相加.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/L2_两数相加.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/L2_两数相加.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/L2_两数相加.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
