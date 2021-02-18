@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/L2_两数相加.java" afterDir="false" />
+    <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加新题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/dynamic_programming/L338_Bit位计数.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L27_移除元素.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/L27_移除元素.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L338_Bit位计数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/L338_Bit位计数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/L889_根据前序和后序遍历构造二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/L889_根据前序和后序遍历构造二叉树.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -352,8 +349,16 @@
       <workItem from="1550736583145" duration="605000" />
       <workItem from="1555161226411" duration="192000" />
       <workItem from="1555215142825" duration="26000" />
-      <workItem from="1612853923549" duration="5879000" />
+      <workItem from="1612853923549" duration="6937000" />
     </task>
+    <task id="LOCAL-00001" summary="添加新题">
+      <created>1613613218373</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613613218373</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,25 +377,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="添加新题" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加新题" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="293" key="GridCell.Tab.0.bottom" timestamp="1613612827982">
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1613613267484">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1613612827982" />
-    <state width="1238" height="293" key="GridCell.Tab.0.center" timestamp="1613612827980">
+    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1613613267484" />
+    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1613613267483">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1613612827980" />
-    <state width="1238" height="293" key="GridCell.Tab.0.left" timestamp="1613612827968">
+    <state width="1238" height="175" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1613613267483" />
+    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1613613267482">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1613612827968" />
-    <state width="1238" height="293" key="GridCell.Tab.0.right" timestamp="1613612827981">
+    <state width="1238" height="175" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1613613267482" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1613613267484">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="293" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1613612827981" />
+    <state width="1238" height="175" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1613613267484" />
     <state width="1238" height="293" key="GridCell.Tab.1.bottom" timestamp="1613612828334">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -407,6 +413,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="293" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1613612828331" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1613613220975">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1613613220975" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
