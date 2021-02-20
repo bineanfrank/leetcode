@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加新题">
-      <change afterPath="$PROJECT_DIR$/src/L995_K连续位的最小翻转次数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/L697_数组的度.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.L2_两数相加">
+  <component name="RunManager" selected="Application.L697_数组的度">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -199,6 +199,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="L697_数组的度" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="L697_数组的度" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -323,9 +331,11 @@
       <item itemvalue="Application.L27_移除元素" />
       <item itemvalue="Application.L338_Bit位计数" />
       <item itemvalue="Application.L2_两数相加" />
+      <item itemvalue="Application.L697_数组的度" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.L697_数组的度" />
         <item itemvalue="Application.L2_两数相加" />
         <item itemvalue="Application.L338_Bit位计数" />
         <item itemvalue="Application.L27_移除元素" />
@@ -349,7 +359,7 @@
       <workItem from="1550736583145" duration="605000" />
       <workItem from="1555161226411" duration="192000" />
       <workItem from="1555215142825" duration="26000" />
-      <workItem from="1612853923549" duration="10877000" />
+      <workItem from="1612853923549" duration="15577000" />
     </task>
     <task id="LOCAL-00001" summary="添加新题">
       <created>1613613218373</created>
@@ -365,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613615181592</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加新题">
+      <created>1613807298714</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613807298714</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,42 +405,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加新题" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom" timestamp="1613615169446">
+    <state width="1238" height="295" key="GridCell.Tab.0.bottom" timestamp="1613812819619">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1613615169446" />
-    <state width="1238" height="175" key="GridCell.Tab.0.center" timestamp="1613615169444">
+    <state width="1238" height="295" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1613812819619" />
+    <state width="1238" height="295" key="GridCell.Tab.0.center" timestamp="1613812819614">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1613615169444" />
-    <state width="1238" height="175" key="GridCell.Tab.0.left" timestamp="1613615169439">
+    <state width="1238" height="295" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1613812819614" />
+    <state width="1238" height="295" key="GridCell.Tab.0.left" timestamp="1613812819613">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1613615169439" />
-    <state width="1238" height="175" key="GridCell.Tab.0.right" timestamp="1613615169445">
+    <state width="1238" height="295" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1613812819613" />
+    <state width="1238" height="295" key="GridCell.Tab.0.right" timestamp="1613812819617">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1613615169445" />
-    <state width="1238" height="175" key="GridCell.Tab.1.bottom" timestamp="1613615169699">
+    <state width="1238" height="295" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1613812819617" />
+    <state width="1238" height="295" key="GridCell.Tab.1.bottom" timestamp="1613812819946">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1613615169699" />
-    <state width="1238" height="175" key="GridCell.Tab.1.center" timestamp="1613615169697">
+    <state width="1238" height="295" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1613812819946" />
+    <state width="1238" height="295" key="GridCell.Tab.1.center" timestamp="1613812819944">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1613615169697" />
-    <state width="1238" height="175" key="GridCell.Tab.1.left" timestamp="1613615169696">
+    <state width="1238" height="295" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1613812819944" />
+    <state width="1238" height="295" key="GridCell.Tab.1.left" timestamp="1613812819943">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1613615169696" />
-    <state width="1238" height="175" key="GridCell.Tab.1.right" timestamp="1613615169698">
+    <state width="1238" height="295" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1613812819943" />
+    <state width="1238" height="295" key="GridCell.Tab.1.right" timestamp="1613812819945">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="175" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1613615169698" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1613615184531">
+    <state width="1238" height="295" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1613812819945" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1613807300840">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1613615184531" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1613807300840" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -457,6 +474,16 @@
           <url>file://$PROJECT_DIR$/src/L2_两数相加.java</url>
           <line>35</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/L697_数组的度.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/L697_数组的度.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
