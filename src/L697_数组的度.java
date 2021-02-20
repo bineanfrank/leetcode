@@ -49,6 +49,7 @@ public class L697_数组的度 {
 
     public int findShortestSubArray1(int[] nums) {
         Map<Integer, Integer> du = new HashMap<>();
+        Map<Integer, int[]> window = new HashMap<>(); // 保存最大度的数字对应的子数组范围索引
         int maxDu = Integer.MIN_VALUE;
         Set<Integer> numSet = new HashSet<>(); // 所有度最高的数字
 
@@ -60,14 +61,17 @@ public class L697_数组的度 {
                 maxDu = oldDu + 1;
                 // 更新了最大度数，相应的数字集合应该修改
                 numSet.clear();
-                numSet.add(nums[i]);
-            } else if (maxDu == oldDu + 1) {
-                numSet.add(nums[i]);
             }
-
-            // 当前还没出现最高度
-            if (maxDu == Integer.MIN_VALUE) {
+            if (maxDu <= oldDu + 1 || maxDu == Integer.MAX_VALUE) {
                 numSet.add(nums[i]);
+                if (window.containsKey(nums[i])) {
+                    int[] index = window.get(nums[i]);
+                    window.put(nums[i], new int[]{index[0], i});
+                } else {
+                    window.put(nums[i], new int[]{i, -1});
+                }
+            }
+            if (maxDu == Integer.MIN_VALUE) {
                 maxDu = 1;
             }
         }

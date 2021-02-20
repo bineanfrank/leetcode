@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加新题">
-      <change afterPath="$PROJECT_DIR$/src/L697_数组的度.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="数组的度优化解答">
+      <change beforePath="$PROJECT_DIR$/src/L697_数组的度.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/L697_数组的度.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -359,7 +358,7 @@
       <workItem from="1550736583145" duration="605000" />
       <workItem from="1555161226411" duration="192000" />
       <workItem from="1555215142825" duration="26000" />
-      <workItem from="1612853923549" duration="15577000" />
+      <workItem from="1612853923549" duration="16196000" />
     </task>
     <task id="LOCAL-00001" summary="添加新题">
       <created>1613613218373</created>
@@ -382,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613807298714</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="数组的度优化解答">
+      <created>1613813223979</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613813223979</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,45 +408,46 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加新题" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加新题" />
+    <MESSAGE value="数组的度优化解答" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组的度优化解答" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="295" key="GridCell.Tab.0.bottom" timestamp="1613812819619">
+    <state width="1238" height="295" key="GridCell.Tab.0.bottom" timestamp="1613813143620">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="295" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1613812819619" />
-    <state width="1238" height="295" key="GridCell.Tab.0.center" timestamp="1613812819614">
+    <state width="1238" height="295" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1613813143620" />
+    <state width="1238" height="295" key="GridCell.Tab.0.center" timestamp="1613813143618">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="295" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1613812819614" />
-    <state width="1238" height="295" key="GridCell.Tab.0.left" timestamp="1613812819613">
+    <state width="1238" height="295" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1613813143618" />
+    <state width="1238" height="295" key="GridCell.Tab.0.left" timestamp="1613813143616">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="295" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1613812819613" />
-    <state width="1238" height="295" key="GridCell.Tab.0.right" timestamp="1613812819617">
+    <state width="1238" height="295" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1613813143616" />
+    <state width="1238" height="295" key="GridCell.Tab.0.right" timestamp="1613813143619">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="295" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1613812819617" />
-    <state width="1238" height="295" key="GridCell.Tab.1.bottom" timestamp="1613812819946">
+    <state width="1238" height="295" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1613813143619" />
+    <state width="1238" height="295" key="GridCell.Tab.1.bottom" timestamp="1613813143901">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="295" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1613812819946" />
-    <state width="1238" height="295" key="GridCell.Tab.1.center" timestamp="1613812819944">
+    <state width="1238" height="295" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1613813143901" />
+    <state width="1238" height="295" key="GridCell.Tab.1.center" timestamp="1613813143900">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="295" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1613812819944" />
-    <state width="1238" height="295" key="GridCell.Tab.1.left" timestamp="1613812819943">
+    <state width="1238" height="295" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1613813143900" />
+    <state width="1238" height="295" key="GridCell.Tab.1.left" timestamp="1613813143899">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="295" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1613812819943" />
-    <state width="1238" height="295" key="GridCell.Tab.1.right" timestamp="1613812819945">
+    <state width="1238" height="295" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1613813143899" />
+    <state width="1238" height="295" key="GridCell.Tab.1.right" timestamp="1613813143901">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="295" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1613812819945" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1613807300840">
+    <state width="1238" height="295" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1613813143901" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1613813225546">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1613807300840" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1613813225546" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
