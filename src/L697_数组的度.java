@@ -1,3 +1,5 @@
+import com.sun.codemodel.internal.JDoLoop;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -124,6 +126,52 @@ public class L697_数组的度 {
                 numSet.add(nums[i]);
                 du.put(nums[i], 1);
                 window.put(nums[i], new int[]{i, i});
+                if (maxDu < 1) {
+                    maxDu = 1;
+                    minLen = 1;
+                }
+            }
+        }
+        return minLen;
+    }
+
+    // 使用静态数组的方式
+    public int findShortestSubArray3(int[] nums) {
+        int[] du = new int[50009];
+        int[] begin = new int[50009];
+        int[] end = new int[50009];
+        int maxDu = 0;
+        int minLen = nums.length;
+        Set<Integer> numSet = new HashSet<>(); // 所有数字的度
+
+        // 计算所有的度，并得到所有数字最大的度
+        for (int i = 0; i < nums.length; i++) {
+            if (numSet.contains(nums[i])) {
+                int oldDu = du[nums[i]];
+                // 更新度数
+                du[nums[i]] =oldDu + 1;
+
+                int j = begin[nums[i]];
+                begin[nums[i]] = j;
+                end[nums[i]] = i;
+
+                // 如果该数字的度数比现有的大，说明这是目前最大的度数，那么此时
+                // 最小子数组范围索引就是nums[i]对应的
+                if (oldDu + 1 > maxDu) {
+                    maxDu = oldDu + 1;
+                    minLen = i - j + 1;
+                } else if (maxDu == oldDu + 1) {
+                    minLen = Math.min(i - j + 1, minLen);
+                }
+            } else {
+                // 第一次出现数字 nums[i]
+                // 将数字放入Set
+                // 将该数字对应的度设置为1
+                // 将该数字对应的最小子数组范围索引放入window，当前就nums[i]一个元素，所以放入[i,i]
+                numSet.add(nums[i]);
+                du[nums[i]] = 1;
+                begin[nums[i]] = i;
+                end[nums[i]] = i;
                 if (maxDu < 1) {
                     maxDu = 1;
                     minLen = 1;
