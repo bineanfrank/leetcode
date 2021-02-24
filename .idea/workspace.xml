@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="数组的度优化解答">
-      <change afterPath="$PROJECT_DIR$/src/L766_托普利茨矩阵.java" afterDir="false" />
+    <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="新增托普利茨矩阵 题解">
+      <change afterPath="$PROJECT_DIR$/src/L1052_爱生气的书店老板.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/L4_寻找两个正序数组的中位数.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L697_数组的度.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/L697_数组的度.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.L766_托普利茨矩阵">
+  <component name="RunManager" selected="Application.L4_寻找两个正序数组的中位数">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -156,16 +156,10 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="L27_移除元素" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="L27_移除元素" />
+    <configuration name="L1052_爱生气的书店老板" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="L1052_爱生气的书店老板" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,8 +172,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L338_Bit位计数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="L338_Bit位计数" />
+    <configuration name="L4_寻找两个正序数组的中位数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="L4_寻找两个正序数组的中位数" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -322,19 +316,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.L27_移除元素" />
-      <item itemvalue="Application.L338_Bit位计数" />
       <item itemvalue="Application.L2_两数相加" />
       <item itemvalue="Application.L697_数组的度" />
       <item itemvalue="Application.L766_托普利茨矩阵" />
+      <item itemvalue="Application.L1052_爱生气的书店老板" />
+      <item itemvalue="Application.L4_寻找两个正序数组的中位数" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.L4_寻找两个正序数组的中位数" />
+        <item itemvalue="Application.L1052_爱生气的书店老板" />
         <item itemvalue="Application.L766_托普利茨矩阵" />
         <item itemvalue="Application.L697_数组的度" />
         <item itemvalue="Application.L2_两数相加" />
-        <item itemvalue="Application.L338_Bit位计数" />
-        <item itemvalue="Application.L27_移除元素" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +349,7 @@
       <workItem from="1550736583145" duration="605000" />
       <workItem from="1555161226411" duration="192000" />
       <workItem from="1555215142825" duration="26000" />
-      <workItem from="1612853923549" duration="22083000" />
+      <workItem from="1612853923549" duration="32772000" />
     </task>
     <task id="LOCAL-00001" summary="添加新题">
       <created>1613613218373</created>
@@ -399,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613961350136</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="新增托普利茨矩阵 题解">
+      <created>1613965058643</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613965058643</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,45 +421,58 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加新题" />
     <MESSAGE value="数组的度优化解答" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组的度优化解答" />
+    <MESSAGE value="新增托普利茨矩阵 题解" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增托普利茨矩阵 题解" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="279" key="GridCell.Tab.0.bottom" timestamp="1613964616192">
+    <state width="1238" height="233" key="GridCell.Tab.0.bottom" timestamp="1614136317348">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="279" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1613964616192" />
-    <state width="1238" height="279" key="GridCell.Tab.0.center" timestamp="1613964616189">
+    <state width="1238" height="233" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1614136317348" />
+    <state width="1238" height="279" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1614063996142" />
+    <state width="1238" height="233" key="GridCell.Tab.0.center" timestamp="1614136317344">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="279" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1613964616189" />
-    <state width="1238" height="279" key="GridCell.Tab.0.left" timestamp="1613964616188">
+    <state width="1238" height="233" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1614136317344" />
+    <state width="1238" height="279" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1614063996139" />
+    <state width="1238" height="233" key="GridCell.Tab.0.left" timestamp="1614136317343">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="279" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1613964616188" />
-    <state width="1238" height="279" key="GridCell.Tab.0.right" timestamp="1613964616191">
+    <state width="1238" height="233" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1614136317343" />
+    <state width="1238" height="279" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1614063996138" />
+    <state width="1238" height="233" key="GridCell.Tab.0.right" timestamp="1614136317347">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="279" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1613964616191" />
-    <state width="1238" height="279" key="GridCell.Tab.1.bottom" timestamp="1613964616534">
+    <state width="1238" height="233" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1614136317347" />
+    <state width="1238" height="279" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1614063996140" />
+    <state width="1238" height="233" key="GridCell.Tab.1.bottom" timestamp="1614136317126">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="279" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1613964616534" />
-    <state width="1238" height="279" key="GridCell.Tab.1.center" timestamp="1613964616532">
+    <state width="1238" height="233" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1614136317126" />
+    <state width="1238" height="279" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1614063996147" />
+    <state width="1238" height="233" key="GridCell.Tab.1.center" timestamp="1614136317125">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="279" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1613964616532" />
-    <state width="1238" height="279" key="GridCell.Tab.1.left" timestamp="1613964616531">
+    <state width="1238" height="233" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1614136317125" />
+    <state width="1238" height="279" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1614063996145" />
+    <state width="1238" height="233" key="GridCell.Tab.1.left" timestamp="1614136317124">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="279" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1613964616531" />
-    <state width="1238" height="279" key="GridCell.Tab.1.right" timestamp="1613964616533">
+    <state width="1238" height="233" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1614136317124" />
+    <state width="1238" height="279" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1614063996145" />
+    <state width="1238" height="233" key="GridCell.Tab.1.right" timestamp="1614136317126">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="279" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1613964616533" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1613961351607">
+    <state width="1238" height="233" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1614136317126" />
+    <state width="1238" height="279" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1614063996146" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1613965060781">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1613961351607" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1613965060781" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1614042173970">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1614042173970" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -520,18 +534,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/L766_托普利茨矩阵.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/L766_托普利茨矩阵.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="28" />
+          <line>20</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/L766_托普利茨矩阵.java</url>
           <line>19</line>
-          <option name="timeStamp" value="29" />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/L1052_爱生气的书店老板.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/L1052_爱生气的书店老板.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
