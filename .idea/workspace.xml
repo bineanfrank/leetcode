@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="新增托普利茨矩阵 题解">
-      <change afterPath="$PROJECT_DIR$/src/L1052_爱生气的书店老板.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/L4_寻找两个正序数组的中位数.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/L4_寻找两个正序数组的中位数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/L4_寻找两个正序数组的中位数.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager" selected="Application.L4_寻找两个正序数组的中位数">
@@ -349,7 +349,7 @@
       <workItem from="1550736583145" duration="605000" />
       <workItem from="1555161226411" duration="192000" />
       <workItem from="1555215142825" duration="26000" />
-      <workItem from="1612853923549" duration="32772000" />
+      <workItem from="1612853923549" duration="33327000" />
     </task>
     <task id="LOCAL-00001" summary="添加新题">
       <created>1613613218373</created>
@@ -400,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613965058643</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="新增托普利茨矩阵 题解">
+      <created>1614136506594</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614136506594</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,50 +432,50 @@
     <option name="LAST_COMMIT_MESSAGE" value="新增托普利茨矩阵 题解" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="233" key="GridCell.Tab.0.bottom" timestamp="1614136317348">
+    <state width="1238" height="233" key="GridCell.Tab.0.bottom" timestamp="1614136538993">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="233" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1614136317348" />
+    <state width="1238" height="233" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1614136538993" />
     <state width="1238" height="279" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1614063996142" />
-    <state width="1238" height="233" key="GridCell.Tab.0.center" timestamp="1614136317344">
+    <state width="1238" height="233" key="GridCell.Tab.0.center" timestamp="1614136538992">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="233" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1614136317344" />
+    <state width="1238" height="233" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1614136538992" />
     <state width="1238" height="279" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1614063996139" />
-    <state width="1238" height="233" key="GridCell.Tab.0.left" timestamp="1614136317343">
+    <state width="1238" height="233" key="GridCell.Tab.0.left" timestamp="1614136538992">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="233" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1614136317343" />
+    <state width="1238" height="233" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1614136538992" />
     <state width="1238" height="279" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1614063996138" />
-    <state width="1238" height="233" key="GridCell.Tab.0.right" timestamp="1614136317347">
+    <state width="1238" height="233" key="GridCell.Tab.0.right" timestamp="1614136538993">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="233" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1614136317347" />
+    <state width="1238" height="233" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1614136538993" />
     <state width="1238" height="279" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1614063996140" />
-    <state width="1238" height="233" key="GridCell.Tab.1.bottom" timestamp="1614136317126">
+    <state width="1238" height="233" key="GridCell.Tab.1.bottom" timestamp="1614136538995">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="233" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1614136317126" />
+    <state width="1238" height="233" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1614136538995" />
     <state width="1238" height="279" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1614063996147" />
-    <state width="1238" height="233" key="GridCell.Tab.1.center" timestamp="1614136317125">
+    <state width="1238" height="233" key="GridCell.Tab.1.center" timestamp="1614136538994">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="233" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1614136317125" />
+    <state width="1238" height="233" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1614136538994" />
     <state width="1238" height="279" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1614063996145" />
-    <state width="1238" height="233" key="GridCell.Tab.1.left" timestamp="1614136317124">
+    <state width="1238" height="233" key="GridCell.Tab.1.left" timestamp="1614136538994">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="233" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1614136317124" />
+    <state width="1238" height="233" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1614136538994" />
     <state width="1238" height="279" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1614063996145" />
-    <state width="1238" height="233" key="GridCell.Tab.1.right" timestamp="1614136317126">
+    <state width="1238" height="233" key="GridCell.Tab.1.right" timestamp="1614136538995">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="233" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1614136317126" />
+    <state width="1238" height="233" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1614136538995" />
     <state width="1238" height="279" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1614063996146" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1613965060781">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1614136508591">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1613965060781" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1614136508591" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1614042173970">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
