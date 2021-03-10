@@ -1,3 +1,5 @@
+package questionbank;
+
 public class L766_托普利茨矩阵 {
 
     public static void main(String[] args) {

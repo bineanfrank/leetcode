@@ -1,3 +1,5 @@
+package questionbank;
+
 import java.util.Arrays;
 
 public class L832_翻转图像 {

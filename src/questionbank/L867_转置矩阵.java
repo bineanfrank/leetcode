@@ -1,3 +1,5 @@
+package questionbank;
+
 public class L867_转置矩阵 {
 
     public static void main(String[] args) {

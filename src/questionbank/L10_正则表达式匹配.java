@@ -1,7 +1,9 @@
+package questionbank;
+
 public class L10_正则表达式匹配 {
 
     public static void main(String[] args) {
-//        boolean res = new L10_正则表达式匹配().isMatch("", "");
+//        boolean res = new questionbank.L10_正则表达式匹配().isMatch("", "");
 //        System.out.println(res);
         boolean res = new L10_正则表达式匹配().isMatch("aab", "c*a*b");
         System.out.println(res);

@@ -1,3 +1,5 @@
+package questionbank;
+
 public class L1052_爱生气的书店老板 {
 
     public static void main(String[] args) {

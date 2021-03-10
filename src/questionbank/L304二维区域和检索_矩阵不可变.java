@@ -1,3 +1,5 @@
+package questionbank;
+
 public class L304二维区域和检索_矩阵不可变 {
 
     public static void main(String[] args) {

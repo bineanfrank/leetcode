@@ -1,3 +1,5 @@
+package questionbank;
+
 public class L303_区域和检索_数组不可变 {
 
     public static void main(String[] args) {

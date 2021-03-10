@@ -1,3 +1,5 @@
+package questionbank;
+
 import java.util.*;
 
 public class L1178_猜字谜 {
