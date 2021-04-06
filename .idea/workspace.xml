@@ -20,27 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加解答">
-      <change afterPath="$PROJECT_DIR$/src/offer/L64_1plusn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L300_最长递增子序列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L354_俄罗斯套娃信封问题.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L468_验证IP地址.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questionbank/L190_颠倒二进制位.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questionbank/L74_搜索二维矩阵.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questionbank/L7_整数反转.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questionbank/L80_删除有序数组中的重复项II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questionbank/L90_子集2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questionbank/L9_回文数.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L1052_爱生气的书店老板.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L1052_爱生气的书店老板.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L10_正则表达式匹配.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L10_正则表达式匹配.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L1178_猜字谜.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L1178_猜字谜.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L1_两数之和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L1_两数之和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L27_移除元素.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L27_移除元素.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L2_两数相加.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L2_两数相加.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L303_区域和检索_数组不可变.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L303_区域和检索_数组不可变.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L304二维区域和检索_矩阵不可变.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L304二维区域和检索_矩阵不可变.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L338_Bit位计数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L338_Bit位计数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L4_寻找两个正序数组的中位数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L4_寻找两个正序数组的中位数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L697_数组的度.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L697_数组的度.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L766_托普利茨矩阵.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L766_托普利茨矩阵.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L832_翻转图像.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L832_翻转图像.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L867_转置矩阵.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L867_转置矩阵.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L889_根据前序和后序遍历构造二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L889_根据前序和后序遍历构造二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L995_K连续位的最小翻转次数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L995_K连续位的最小翻转次数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/questionbank/L300_最长递增子序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L300_最长递增子序列.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +58,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.L354_俄罗斯套娃信封问题">
+  <component name="RunManager" selected="Application.L80_删除有序数组中的重复项II">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -175,32 +162,8 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="L1178_猜字谜" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questionbank.L1178_猜字谜" />
-      <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="L303_区域和检索_数组不可变" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questionbank.L303_区域和检索_数组不可变" />
-      <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="L304二维区域和检索_矩阵不可变" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questionbank.L304二维区域和检索_矩阵不可变" />
-      <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="L354_俄罗斯套娃信封问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questionbank.L354_俄罗斯套娃信封问题" />
+    <configuration name="L190_颠倒二进制位" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questionbank.L190_颠倒二进制位" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -213,8 +176,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L468_验证IP地址" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questionbank.L468_验证IP地址" />
+    <configuration name="L7_整数反转" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questionbank.L7_整数反转" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questionbank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L80_删除有序数组中的重复项II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questionbank.L80_删除有序数组中的重复项II" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questionbank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L90_子集2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questionbank.L90_子集2" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questionbank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L9_回文数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questionbank.L9_回文数" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -347,19 +352,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.L1178_猜字谜" />
-      <item itemvalue="Application.L303_区域和检索_数组不可变" />
-      <item itemvalue="Application.L304二维区域和检索_矩阵不可变" />
-      <item itemvalue="Application.L468_验证IP地址" />
-      <item itemvalue="Application.L354_俄罗斯套娃信封问题" />
+      <item itemvalue="Application.L7_整数反转" />
+      <item itemvalue="Application.L9_回文数" />
+      <item itemvalue="Application.L190_颠倒二进制位" />
+      <item itemvalue="Application.L90_子集2" />
+      <item itemvalue="Application.L80_删除有序数组中的重复项II" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.L354_俄罗斯套娃信封问题" />
-        <item itemvalue="Application.L468_验证IP地址" />
-        <item itemvalue="Application.L304二维区域和检索_矩阵不可变" />
-        <item itemvalue="Application.L303_区域和检索_数组不可变" />
-        <item itemvalue="Application.L1178_猜字谜" />
+        <item itemvalue="Application.L80_删除有序数组中的重复项II" />
+        <item itemvalue="Application.L90_子集2" />
+        <item itemvalue="Application.L190_颠倒二进制位" />
+        <item itemvalue="Application.L9_回文数" />
+        <item itemvalue="Application.L7_整数反转" />
       </list>
     </recent_temporary>
   </component>
@@ -384,6 +389,9 @@
       <workItem from="1614932804534" duration="849000" />
       <workItem from="1615168177602" duration="787000" />
       <workItem from="1615274261872" duration="134000" />
+      <workItem from="1615371345880" duration="7526000" />
+      <workItem from="1617155794826" duration="76000" />
+      <workItem from="1617156095792" duration="7503000" />
     </task>
     <task id="LOCAL-00001" summary="添加新题">
       <created>1613613218373</created>
@@ -483,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614680737027</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="添加解答">
+      <created>1615371589834</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1615371589834</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,54 +536,54 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="410" y="297" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.800@0.0.1280.800" timestamp="1614742146981" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1614929459429">
-      <screen x="0" y="23" width="1280" height="709" />
+    <state width="1238" height="269" key="GridCell.Tab.0.bottom" timestamp="1617694131628">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="214" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1614840542340" />
+    <state width="1238" height="269" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1617694131628" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1614929459429" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1614929459428">
-      <screen x="0" y="23" width="1280" height="709" />
+    <state width="1238" height="269" key="GridCell.Tab.0.center" timestamp="1617694131626">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="214" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1614840542338" />
+    <state width="1238" height="269" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1617694131626" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1614929459428" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1614929459428">
-      <screen x="0" y="23" width="1280" height="709" />
+    <state width="1238" height="269" key="GridCell.Tab.0.left" timestamp="1617694131623">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="214" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1614840542337" />
+    <state width="1238" height="269" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1617694131623" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1614929459428" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1614929459429">
-      <screen x="0" y="23" width="1280" height="709" />
+    <state width="1238" height="269" key="GridCell.Tab.0.right" timestamp="1617694131627">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="214" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1614840542339" />
+    <state width="1238" height="269" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1617694131627" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1614929459429" />
-    <state width="1238" height="397" key="GridCell.Tab.1.bottom" timestamp="1614929459418">
-      <screen x="0" y="23" width="1280" height="709" />
+    <state width="1238" height="269" key="GridCell.Tab.1.bottom" timestamp="1617694131896">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="214" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1614840542680" />
+    <state width="1238" height="269" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1617694131896" />
     <state width="1238" height="397" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1614929459418" />
-    <state width="1238" height="397" key="GridCell.Tab.1.center" timestamp="1614929459418">
-      <screen x="0" y="23" width="1280" height="709" />
+    <state width="1238" height="269" key="GridCell.Tab.1.center" timestamp="1617694131894">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="214" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1614840542676" />
+    <state width="1238" height="269" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1617694131894" />
     <state width="1238" height="397" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1614929459418" />
-    <state width="1238" height="397" key="GridCell.Tab.1.left" timestamp="1614929459417">
-      <screen x="0" y="23" width="1280" height="709" />
+    <state width="1238" height="269" key="GridCell.Tab.1.left" timestamp="1617694131893">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="214" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1614840542674" />
+    <state width="1238" height="269" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1617694131893" />
     <state width="1238" height="397" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1614929459417" />
-    <state width="1238" height="397" key="GridCell.Tab.1.right" timestamp="1614929459418">
-      <screen x="0" y="23" width="1280" height="709" />
+    <state width="1238" height="269" key="GridCell.Tab.1.right" timestamp="1617694131895">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="214" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1614840542679" />
+    <state width="1238" height="269" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1617694131895" />
     <state width="1238" height="397" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1614929459418" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1614680738837">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1615371592830">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1614680738837" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1614042173970">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1615371592830" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1617014716496">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1614042173970" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1617014716496" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -707,6 +722,16 @@
           <url>file://$PROJECT_DIR$/src/questionbank/L354_俄罗斯套娃信封问题.java</url>
           <line>52</line>
           <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/questionbank/L7_整数反转.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/questionbank/L80_删除有序数组中的重复项II.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="103" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
