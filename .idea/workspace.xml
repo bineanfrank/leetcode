@@ -20,14 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加解答">
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L190_颠倒二进制位.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L74_搜索二维矩阵.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L7_整数反转.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L80_删除有序数组中的重复项II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L90_子集2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L9_回文数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questionbank/L153_寻找旋转排序数组中的最小值.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questionbank/L154_寻找旋转排序数组中的最小值II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questionbank/L179_最大数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questionbank/L81_搜索旋转排序数组II.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/questionbank/L300_最长递增子序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L300_最长递增子序列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/questionbank/L80_删除有序数组中的重复项II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L80_删除有序数组中的重复项II.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +54,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
-  <component name="RunManager" selected="Application.L80_删除有序数组中的重复项II">
+  <component name="RunManager" selected="Application.L179_最大数">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -162,8 +160,8 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="L190_颠倒二进制位" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questionbank.L190_颠倒二进制位" />
+    <configuration name="L153_寻找旋转排序数组中的最小值" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questionbank.L153_寻找旋转排序数组中的最小值" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -176,8 +174,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L7_整数反转" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questionbank.L7_整数反转" />
+    <configuration name="L179_最大数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questionbank.L179_最大数" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -204,8 +202,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L90_子集2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questionbank.L90_子集2" />
+    <configuration name="L81_搜索旋转排序数组II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questionbank.L81_搜索旋转排序数组II" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -218,8 +216,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L9_回文数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questionbank.L9_回文数" />
+    <configuration name="L90_子集2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questionbank.L90_子集2" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -352,19 +350,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.L7_整数反转" />
-      <item itemvalue="Application.L9_回文数" />
-      <item itemvalue="Application.L190_颠倒二进制位" />
       <item itemvalue="Application.L90_子集2" />
       <item itemvalue="Application.L80_删除有序数组中的重复项II" />
+      <item itemvalue="Application.L81_搜索旋转排序数组II" />
+      <item itemvalue="Application.L153_寻找旋转排序数组中的最小值" />
+      <item itemvalue="Application.L179_最大数" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.L179_最大数" />
+        <item itemvalue="Application.L153_寻找旋转排序数组中的最小值" />
+        <item itemvalue="Application.L81_搜索旋转排序数组II" />
         <item itemvalue="Application.L80_删除有序数组中的重复项II" />
         <item itemvalue="Application.L90_子集2" />
-        <item itemvalue="Application.L190_颠倒二进制位" />
-        <item itemvalue="Application.L9_回文数" />
-        <item itemvalue="Application.L7_整数反转" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +389,11 @@
       <workItem from="1615274261872" duration="134000" />
       <workItem from="1615371345880" duration="7526000" />
       <workItem from="1617155794826" duration="76000" />
-      <workItem from="1617156095792" duration="7503000" />
+      <workItem from="1617156095792" duration="15618000" />
+      <workItem from="1618195438330" duration="50000" />
+      <workItem from="1618195522811" duration="2713000" />
+      <workItem from="1618208599235" duration="195000" />
+      <workItem from="1618208830302" duration="57000" />
     </task>
     <task id="LOCAL-00001" summary="添加新题">
       <created>1613613218373</created>
@@ -498,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615371589834</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="添加解答">
+      <created>1617700572652</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1617700572652</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,64 +535,6 @@
     <MESSAGE value="添加俩数之和解答" />
     <MESSAGE value="添加解答" />
     <option name="LAST_COMMIT_MESSAGE" value="添加解答" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="453" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1614838726240">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="453" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1614838726240" />
-    <state x="410" y="297" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1614742146981">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="410" y="297" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.800@0.0.1280.800" timestamp="1614742146981" />
-    <state width="1238" height="269" key="GridCell.Tab.0.bottom" timestamp="1617694131628">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="269" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1617694131628" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1614929459429" />
-    <state width="1238" height="269" key="GridCell.Tab.0.center" timestamp="1617694131626">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="269" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1617694131626" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1614929459428" />
-    <state width="1238" height="269" key="GridCell.Tab.0.left" timestamp="1617694131623">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="269" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1617694131623" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1614929459428" />
-    <state width="1238" height="269" key="GridCell.Tab.0.right" timestamp="1617694131627">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="269" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1617694131627" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1614929459429" />
-    <state width="1238" height="269" key="GridCell.Tab.1.bottom" timestamp="1617694131896">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="269" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1617694131896" />
-    <state width="1238" height="397" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1614929459418" />
-    <state width="1238" height="269" key="GridCell.Tab.1.center" timestamp="1617694131894">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="269" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1617694131894" />
-    <state width="1238" height="397" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1614929459418" />
-    <state width="1238" height="269" key="GridCell.Tab.1.left" timestamp="1617694131893">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="269" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1617694131893" />
-    <state width="1238" height="397" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1614929459417" />
-    <state width="1238" height="269" key="GridCell.Tab.1.right" timestamp="1617694131895">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="269" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1617694131895" />
-    <state width="1238" height="397" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1614929459418" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1615371592830">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1615371592830" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1617014716496">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1617014716496" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -729,12 +680,46 @@
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/questionbank/L80_删除有序数组中的重复项II.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="103" />
+          <url>file://$PROJECT_DIR$/src/questionbank/L81_搜索旋转排序数组II.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/questionbank/L81_搜索旋转排序数组II.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/questionbank/L81_搜索旋转排序数组II.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/questionbank/L153_寻找旋转排序数组中的最小值.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/questionbank/L153_寻找旋转排序数组中的最小值.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/questionbank/L153_寻找旋转排序数组中的最小值.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/questionbank/L179_最大数.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="119" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
