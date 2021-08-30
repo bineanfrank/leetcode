@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加解答">
+      <change afterPath="$PROJECT_DIR$/src/questionbank/L560_和为K的子数组.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +41,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1oEZsvnIOTwY0kMZPyzdXnXODUr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,7 +61,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
   </component>
   <component name="RunManager" selected="Application.L208_实现Trie前缀树">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -392,6 +404,7 @@
       <workItem from="1618208939659" duration="7002000" />
       <workItem from="1621996387697" duration="822000" />
       <workItem from="1630291072755" duration="372000" />
+      <workItem from="1630291482809" duration="2824000" />
     </task>
     <task id="LOCAL-00001" summary="添加新题">
       <created>1613613218373</created>
@@ -519,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630291125194</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="添加解答">
+      <created>1630291532348</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1630291532349</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
