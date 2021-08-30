@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加解答">
-      <change afterPath="$PROJECT_DIR$/src/common/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L1190_反转每对括号间的子串.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L208_实现Trie前缀树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L783_二叉搜索树节点最小距离.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/questionbank/L300_最长递增子序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L300_最长递增子序列.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -396,6 +391,7 @@
       <workItem from="1618208830302" duration="57000" />
       <workItem from="1618208939659" duration="7002000" />
       <workItem from="1621996387697" duration="822000" />
+      <workItem from="1630291072755" duration="372000" />
     </task>
     <task id="LOCAL-00001" summary="添加新题">
       <created>1613613218373</created>
@@ -516,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618208991191</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="添加解答">
+      <created>1630291125194</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1630291125194</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
