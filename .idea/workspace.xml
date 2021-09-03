@@ -23,8 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加解答">
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L560_和为K的子数组.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/questionbank/L208_实现Trie前缀树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L208_实现Trie前缀树.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager" selected="Application.L208_实现Trie前缀树">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -404,7 +404,7 @@
       <workItem from="1618208939659" duration="7002000" />
       <workItem from="1621996387697" duration="822000" />
       <workItem from="1630291072755" duration="372000" />
-      <workItem from="1630291482809" duration="2824000" />
+      <workItem from="1630291482809" duration="5275000" />
     </task>
     <task id="LOCAL-00001" summary="添加新题">
       <created>1613613218373</created>
@@ -539,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630291532349</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="添加解答">
+      <created>1630316417361</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1630316417361</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

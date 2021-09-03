@@ -67,7 +67,7 @@ public class L208_实现Trie前缀树 {
             if (n == null)
                 return false;
 
-            // 递归出口是已经到了字符串的最后一个字符，秀嘎occurances=0，代表已经删除了
+            // 递归出口是已经到了字符串的最后一个字符，occurrence=0，代表已经删除了
             // 否则继续递归到最后一个字符
             boolean ret;
             if (pos == s.length() - 1) {
@@ -80,7 +80,7 @@ public class L208_实现Trie前缀树 {
 
             // 删除之后，必须删除不必要的字符
             // 比如保存的“Harlan”被删除了，那么如果n保存在叶子节点，意味着它虽然被标记着不存在了，但是还占着空间
-            // 所以必须删除，但是如果“Harlan”删除了，但是Trie里面还保存这“Harlan1994”,那么久不需要删除字符了
+            // 所以必须删除，但是如果“Harlan”删除了，但是Trie里面还保存这“Harlan1994”,那么不需要删除字符
             if (n.children == null && n.occurrence == 0) {
                 children.remove(n.c);
                 if (children.size() == 0)
