@@ -22,9 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加：L704_二分查找">
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L46_全排列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加：L46_全排列">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -404,7 +403,7 @@
       <workItem from="1618208939659" duration="7002000" />
       <workItem from="1621996387697" duration="822000" />
       <workItem from="1630291072755" duration="372000" />
-      <workItem from="1630291482809" duration="17176000" />
+      <workItem from="1630291482809" duration="17503000" />
     </task>
     <task id="LOCAL-00001" summary="添加新题">
       <created>1613613218373</created>
@@ -574,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630912511444</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="添加：L46_全排列">
+      <created>1630919598944</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1630919598944</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,7 +610,8 @@
     <MESSAGE value="添加gitignore" />
     <MESSAGE value="添加新的答案" />
     <MESSAGE value="添加：L704_二分查找" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加：L704_二分查找" />
+    <MESSAGE value="添加：L46_全排列" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加：L46_全排列" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
