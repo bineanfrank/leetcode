@@ -22,8 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="修改gitignore">
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L47_全排列2.java" afterDir="false" />
+    <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加 全排列2">
+      <change afterPath="$PROJECT_DIR$/src/questionbank/L524_通过删除字母匹配到字典里最长单词.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +63,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.L46_全排列">
+  <component name="RunManager" selected="Application.L524_通过删除字母匹配到字典里最长单词">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -167,20 +167,6 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="L179_最大数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questionbank.L179_最大数" />
-      <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questionbank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="L208_实现Trie前缀树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questionbank.L208_实现Trie前缀树" />
       <module name="leetcode" />
@@ -211,6 +197,20 @@
     </configuration>
     <configuration name="L46_全排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questionbank.L46_全排列" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questionbank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L524_通过删除字母匹配到字典里最长单词" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questionbank.L524_通过删除字母匹配到字典里最长单词" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -357,19 +357,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.L179_最大数" />
       <item itemvalue="Application.L300_最长递增子序列" />
       <item itemvalue="Application.L208_实现Trie前缀树" />
       <item itemvalue="Application.L560_和为K的子数组" />
       <item itemvalue="Application.L46_全排列" />
+      <item itemvalue="Application.L524_通过删除字母匹配到字典里最长单词" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.L524_通过删除字母匹配到字典里最长单词" />
         <item itemvalue="Application.L46_全排列" />
         <item itemvalue="Application.L560_和为K的子数组" />
         <item itemvalue="Application.L208_实现Trie前缀树" />
         <item itemvalue="Application.L300_最长递增子序列" />
-        <item itemvalue="Application.L179_最大数" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +404,7 @@
       <workItem from="1618208939659" duration="7002000" />
       <workItem from="1621996387697" duration="822000" />
       <workItem from="1630291072755" duration="372000" />
-      <workItem from="1630291482809" duration="21440000" />
+      <workItem from="1630291482809" duration="26851000" />
     </task>
     <task id="LOCAL-00001" summary="添加新题">
       <created>1613613218373</created>
@@ -588,7 +588,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630919748990</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="添加 全排列2">
+      <created>1631512662031</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1631512662031</updated>
+    </task>
+    <task id="LOCAL-00028" summary="添加 全排列2">
+      <created>1631512719814</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1631512719814</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,7 +634,8 @@
     <MESSAGE value="添加：L704_二分查找" />
     <MESSAGE value="添加：L46_全排列" />
     <MESSAGE value="修改gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改gitignore" />
+    <MESSAGE value="添加 全排列2" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 全排列2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -804,6 +819,16 @@
           <url>file://$PROJECT_DIR$/src/questionbank/L783_二叉搜索树节点最小距离.java</url>
           <line>20</line>
           <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/questionbank/L524_通过删除字母匹配到字典里最长单词.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/questionbank/L524_通过删除字母匹配到字典里最长单词.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="171" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
