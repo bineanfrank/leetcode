@@ -17,38 +17,19 @@ public class L524_通过删除字母匹配到字典里最长单词 {
          * ["word","good","best","good"]
          *
          */
-        String longestWord = solution.findLongestWord("wordgoodgoodgoodbestword", Arrays.asList("word", "good", "best", "good"));
-        System.out.println(longestWord);
-
-        System.out.println("abc".compareTo("abe"));
-        System.out.println("best".compareTo("good"));
-        System.out.println("ale".compareTo(""));
     }
 
     public String findLongestWord(String s, List<String> dictionary) {
         String res = "";
         for (String target : dictionary) {
-            if (target.length() > s.length()) {
+            String r = helper(s, target);
+            if (r.length() == 0) {
                 continue;
-            } else if (target.length() <= s.length()) {
-                String r;
-                if (target.length() == s.length()) {
-                    r = target;
-                } else {
-                    r = helper(s, target);
-                }
-                if (r.length() == 0) {
-                    continue;
-                }
-
-                int com = res.compareTo(r);
-                if (com == 0) {
-                    res = r.length() > res.length() ? r : res;
-                } else if (com < 0) {
-                    // no modify
-                } else {
-
-                }
+            }
+            if (r.length() > res.length()) {
+                res = r;
+            } else if (r.length() == res.length()) {
+                res = r.compareTo(res) < 0 ? r : res;
             }
         }
         return res;

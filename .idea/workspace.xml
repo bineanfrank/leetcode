@@ -24,6 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加 L524_通过删除字母匹配到字典里最长单词">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/questionbank/L524_通过删除字母匹配到字典里最长单词.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L524_通过删除字母匹配到字典里最长单词.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -403,7 +404,7 @@
       <workItem from="1618208939659" duration="7002000" />
       <workItem from="1621996387697" duration="822000" />
       <workItem from="1630291072755" duration="372000" />
-      <workItem from="1630291482809" duration="27477000" />
+      <workItem from="1630291482809" duration="28744000" />
     </task>
     <task id="LOCAL-00001" summary="添加新题">
       <created>1613613218373</created>
@@ -615,7 +616,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631613360482</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="添加 L524_通过删除字母匹配到字典里最长单词">
+      <created>1631675193954</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1631675193954</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -833,11 +841,6 @@
           <url>file://$PROJECT_DIR$/src/questionbank/L783_二叉搜索树节点最小距离.java</url>
           <line>20</line>
           <option name="timeStamp" value="121" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/questionbank/L524_通过删除字母匹配到字典里最长单词.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="174" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
