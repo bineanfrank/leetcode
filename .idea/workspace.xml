@@ -22,8 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加 全排列2">
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L524_通过删除字母匹配到字典里最长单词.java" afterDir="false" />
+    <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加 L524_通过删除字母匹配到字典里最长单词">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -404,7 +403,7 @@
       <workItem from="1618208939659" duration="7002000" />
       <workItem from="1621996387697" duration="822000" />
       <workItem from="1630291072755" duration="372000" />
-      <workItem from="1630291482809" duration="26851000" />
+      <workItem from="1630291482809" duration="27477000" />
     </task>
     <task id="LOCAL-00001" summary="添加新题">
       <created>1613613218373</created>
@@ -602,7 +601,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631512719814</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="添加 L524_通过删除字母匹配到字典里最长单词">
+      <created>1631613327554</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1631613327554</updated>
+    </task>
+    <task id="LOCAL-00030" summary="添加 L524_通过删除字母匹配到字典里最长单词">
+      <created>1631613360482</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1631613360482</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,7 +648,8 @@
     <MESSAGE value="添加：L46_全排列" />
     <MESSAGE value="修改gitignore" />
     <MESSAGE value="添加 全排列2" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 全排列2" />
+    <MESSAGE value="添加 L524_通过删除字母匹配到字典里最长单词" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 L524_通过删除字母匹配到字典里最长单词" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -822,13 +836,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/questionbank/L524_通过删除字母匹配到字典里最长单词.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="168" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/questionbank/L524_通过删除字母匹配到字典里最长单词.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="171" />
+          <line>46</line>
+          <option name="timeStamp" value="174" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
