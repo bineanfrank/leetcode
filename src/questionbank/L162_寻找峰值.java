@@ -13,10 +13,10 @@ public class L162_寻找峰值 {
         int left = 0;
         while (left < right) {
             int mid = (left + right) / 2;
-            if (nums[mid] > nums[mid + 1]) {
-                right = mid;
+            if (nums[mid - 1] > nums[mid]) {
+                right = mid - 1;
             } else {
-                left = mid + 1;
+                left = mid;
             }
         }
         return left;

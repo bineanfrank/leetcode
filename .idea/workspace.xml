@@ -22,9 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加 L524_通过删除字母匹配到字典里最长单词">
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L162_寻找峰值.java" afterDir="false" />
+    <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加 L162_寻找峰值">
+      <change afterPath="$PROJECT_DIR$/src/questionbank/L430_扁平化多级双向链表.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/questionbank/L162_寻找峰值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L162_寻找峰值.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.L524_通过删除字母匹配到字典里最长单词">
+  <component name="RunManager" selected="Application.L430_扁平化多级双向链表">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -181,8 +182,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L300_最长递增子序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questionbank.L300_最长递增子序列" />
+    <configuration name="L430_扁平化多级双向链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questionbank.L430_扁平化多级双向链表" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -357,19 +358,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.L300_最长递增子序列" />
       <item itemvalue="Application.L208_实现Trie前缀树" />
       <item itemvalue="Application.L560_和为K的子数组" />
       <item itemvalue="Application.L46_全排列" />
       <item itemvalue="Application.L524_通过删除字母匹配到字典里最长单词" />
+      <item itemvalue="Application.L430_扁平化多级双向链表" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.L430_扁平化多级双向链表" />
         <item itemvalue="Application.L524_通过删除字母匹配到字典里最长单词" />
         <item itemvalue="Application.L46_全排列" />
         <item itemvalue="Application.L560_和为K的子数组" />
         <item itemvalue="Application.L208_实现Trie前缀树" />
-        <item itemvalue="Application.L300_最长递增子序列" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +405,7 @@
       <workItem from="1618208939659" duration="7002000" />
       <workItem from="1621996387697" duration="822000" />
       <workItem from="1630291072755" duration="372000" />
-      <workItem from="1630291482809" duration="29887000" />
+      <workItem from="1630291482809" duration="36254000" />
     </task>
     <task id="LOCAL-00001" summary="添加新题">
       <created>1613613218373</created>
@@ -630,7 +631,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631688111866</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="添加 L162_寻找峰值">
+      <created>1632298361702</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1632298361702</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -664,7 +672,8 @@
     <MESSAGE value="修改gitignore" />
     <MESSAGE value="添加 全排列2" />
     <MESSAGE value="添加 L524_通过删除字母匹配到字典里最长单词" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 L524_通过删除字母匹配到字典里最长单词" />
+    <MESSAGE value="添加 L162_寻找峰值" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 L162_寻找峰值" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -849,6 +858,11 @@
           <line>20</line>
           <option name="timeStamp" value="121" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/questionbank/L430_扁平化多级双向链表.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -859,5 +873,10 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leetcode$L430_.ic" NAME="L430_扁平化多级双向链表 Coverage Results" MODIFIED="1632475024970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>questionbank.*</FILTER>
+    </SUITE>
   </component>
 </project>
