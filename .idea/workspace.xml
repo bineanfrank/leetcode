@@ -22,10 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加 L162_寻找峰值">
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L430_扁平化多级双向链表.java" afterDir="false" />
+    <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加 L430_扁平化多级双向链表">
+      <change afterPath="$PROJECT_DIR$/src/questionbank/L371_两整数之和.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/questionbank/L162_寻找峰值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questionbank/L162_寻找峰值.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -405,7 +404,7 @@
       <workItem from="1618208939659" duration="7002000" />
       <workItem from="1621996387697" duration="822000" />
       <workItem from="1630291072755" duration="372000" />
-      <workItem from="1630291482809" duration="36254000" />
+      <workItem from="1630291482809" duration="38952000" />
     </task>
     <task id="LOCAL-00001" summary="添加新题">
       <created>1613613218373</created>
@@ -638,7 +637,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632298361702</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="添加 L430_扁平化多级双向链表">
+      <created>1632646575936</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1632646575936</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -673,7 +679,8 @@
     <MESSAGE value="添加 全排列2" />
     <MESSAGE value="添加 L524_通过删除字母匹配到字典里最长单词" />
     <MESSAGE value="添加 L162_寻找峰值" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 L162_寻找峰值" />
+    <MESSAGE value="添加 L430_扁平化多级双向链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 L430_扁平化多级双向链表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -860,7 +867,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/questionbank/L430_扁平化多级双向链表.java</url>
-          <line>42</line>
+          <line>43</line>
           <option name="timeStamp" value="179" />
         </line-breakpoint>
       </breakpoints>
