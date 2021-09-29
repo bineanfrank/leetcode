@@ -22,9 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加 L371_两整数之和">
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L23_合并K个升序链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L639_解码方法2.java" afterDir="false" />
+    <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加 L23_合并K个升序链表">
+      <change afterPath="$PROJECT_DIR$/src/questionbank/L437_路径总和3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +63,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.L430_扁平化多级双向链表">
+  <component name="RunManager" selected="Application.L437_路径总和3">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -168,8 +167,8 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="L208_实现Trie前缀树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questionbank.L208_实现Trie前缀树" />
+    <configuration name="L430_扁平化多级双向链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questionbank.L430_扁平化多级双向链表" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -182,8 +181,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L430_扁平化多级双向链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questionbank.L430_扁平化多级双向链表" />
+    <configuration name="L437_路径总和3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questionbank.L437_路径总和3" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -358,19 +357,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.L208_实现Trie前缀树" />
       <item itemvalue="Application.L560_和为K的子数组" />
       <item itemvalue="Application.L46_全排列" />
       <item itemvalue="Application.L524_通过删除字母匹配到字典里最长单词" />
       <item itemvalue="Application.L430_扁平化多级双向链表" />
+      <item itemvalue="Application.L437_路径总和3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.L437_路径总和3" />
         <item itemvalue="Application.L430_扁平化多级双向链表" />
         <item itemvalue="Application.L524_通过删除字母匹配到字典里最长单词" />
         <item itemvalue="Application.L46_全排列" />
         <item itemvalue="Application.L560_和为K的子数组" />
-        <item itemvalue="Application.L208_实现Trie前缀树" />
       </list>
     </recent_temporary>
   </component>
@@ -405,7 +404,7 @@
       <workItem from="1618208939659" duration="7002000" />
       <workItem from="1621996387697" duration="822000" />
       <workItem from="1630291072755" duration="372000" />
-      <workItem from="1630291482809" duration="42160000" />
+      <workItem from="1630291482809" duration="44979000" />
     </task>
     <task id="LOCAL-00001" summary="添加新题">
       <created>1613613218373</created>
@@ -652,7 +651,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632705167578</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="添加 L23_合并K个升序链表">
+      <created>1632727198082</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1632727198082</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -689,7 +695,8 @@
     <MESSAGE value="添加 L162_寻找峰值" />
     <MESSAGE value="添加 L430_扁平化多级双向链表" />
     <MESSAGE value="添加 L371_两整数之和" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 L371_两整数之和" />
+    <MESSAGE value="添加 L23_合并K个升序链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 L23_合并K个升序链表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
