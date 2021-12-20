@@ -22,8 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加 L23_合并K个升序链表">
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L437_路径总和3.java" afterDir="false" />
+    <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加 L437_路径总和3">
+      <change afterPath="$PROJECT_DIR$/src/questionbank/L187_重复的DNA序列.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questionbank/L517_超级洗衣机.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -404,7 +405,8 @@
       <workItem from="1618208939659" duration="7002000" />
       <workItem from="1621996387697" duration="822000" />
       <workItem from="1630291072755" duration="372000" />
-      <workItem from="1630291482809" duration="44979000" />
+      <workItem from="1630291482809" duration="45268000" />
+      <workItem from="1633663823676" duration="2753000" />
     </task>
     <task id="LOCAL-00001" summary="添加新题">
       <created>1613613218373</created>
@@ -658,7 +660,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632727198082</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="添加 L437_路径总和3">
+      <created>1632880392303</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1632880392303</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -696,7 +705,8 @@
     <MESSAGE value="添加 L430_扁平化多级双向链表" />
     <MESSAGE value="添加 L371_两整数之和" />
     <MESSAGE value="添加 L23_合并K个升序链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 L23_合并K个升序链表" />
+    <MESSAGE value="添加 L437_路径总和3" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 L437_路径总和3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
