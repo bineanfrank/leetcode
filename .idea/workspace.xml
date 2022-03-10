@@ -23,8 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b122def2-fac1-451b-9004-5ded4b151448" name="Default" comment="添加 L437_路径总和3">
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L187_重复的DNA序列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/questionbank/L517_超级洗衣机.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questionbank/L589_叉树的前序遍历.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -407,6 +406,9 @@
       <workItem from="1630291072755" duration="372000" />
       <workItem from="1630291482809" duration="45268000" />
       <workItem from="1633663823676" duration="2753000" />
+      <workItem from="1639980721046" duration="991000" />
+      <workItem from="1640574914668" duration="2059000" />
+      <workItem from="1646897945029" duration="496000" />
     </task>
     <task id="LOCAL-00001" summary="添加新题">
       <created>1613613218373</created>
@@ -667,7 +669,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632880392303</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="添加 L437_路径总和3">
+      <created>1639980742959</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1639980742959</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -775,11 +784,6 @@
           <url>file://$PROJECT_DIR$/src/questionbank/L766_托普利茨矩阵.java</url>
           <line>19</line>
           <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/questionbank/L1052_爱生气的书店老板.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/questionbank/L1052_爱生气的书店老板.java</url>
